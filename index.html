@@ -14,17 +14,19 @@
     <a-scene renderer="logarithmicDepthBuffer: true;" embedded loading-screen="enabled: false;"
         arjs="sourceType: webcam; debugUIEnabled: false;">
         <a-assets>
-            <a-asset-item id="animated-asset" src="assets/asset.gltf"></a-asset-item>
+            <a-asset-item id="animated-asset-1" src="assets/bowser.gltf"></a-asset-item>
+            <a-asset-item id="animated-asset-2" src="assets/superhuman.gltf"></a-asset-item>
+            <a-asset-item id="animated-asset-3" src="assets/strongchicken.gltf"></a-asset-item>
         </a-assets>
 
-        <a-entity look-at="[gps-camera]" animation-mixer="loop: repeat" gltf-model="#animated-asset"
+        <a-entity look-at="[gps-camera]" animation-mixer="loop: repeat" gltf-model="#animated-asset-1"
             scale="1.2241099965015518 1.2241099965015518 1.2241099965015518"
             gps-entity-place="latitude: 55.77072; longitude: 12.489444;"></a-entity>
-        <a-entity look-at="[gps-camera]" animation-mixer="loop: repeat" gltf-model="#animated-asset"
-            scale="1.2241099965015518 1.2241099965015518 1.2241099965015518"
+        <a-entity look-at="[gps-camera]" animation-mixer="loop: repeat" gltf-model="#animated-asset-2"
+            scale="0.0151234567 0.0151234567 0.0151234567"
             gps-entity-place="latitude: 55.779239; longitude: 12.487436;"></a-entity>
-        <a-entity look-at="[gps-camera]" animation-mixer="loop: repeat" gltf-model="#animated-asset"
-            scale="1.2241099965015518 1.2241099965015518 1.2241099965015518"
+        <a-entity look-at="[gps-camera]" animation-mixer="loop: repeat" gltf-model="#animated-asset-3"
+            scale="0.7070057778446787 0.7070057778446787 0.7070057778446787"
             gps-entity-place="latitude: 55.780597; longitude: 12.480123;"></a-entity>
         <a-entity look-at="[gps-camera]" animation-mixer="loop: repeat" gltf-model="#animated-asset"
             scale="1.2241099965015518 1.2241099965015518 1.2241099965015518"
